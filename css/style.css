@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button.nav.nav_focused {
+    color: rgb(83, 83, 83);
+}
+
+body {
+    background-image: url(../img/Landing_Background.png);
+    /* background-color: #84bede; */
+}
+
+.flex_container_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.flex_container_landing {
+    margin: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    box-sizing: border-box;
+}
+
+.flex_container_row > div.box {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+button.nav {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    height: 30px;
+    border: unset;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(173, 173, 173);
+}
+
+button.nav:hover {
+    color: rgb(126, 126, 126);
+    cursor: pointer;
+}
+
+button.nav:focus {
+    outline: none;
+    color: rgb(83, 83, 83);
+}
+
+.text_landing {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 240%;    
+    margin: 40px;
+    margin-left: 0%;
+    color: rgb(250, 250, 250);
+}
+
+.text_landing_2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 100%;
+    text-align: left;
+    margin: 8px;
+    color: rgb(250, 250, 250);
+}
+
+.box_landing {
+    padding-top: 10%;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.box_landing_img {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.landing_image {
+    width: 300px;
+    height: 500px;
+    
+    background: url("../img/Timpani.jpg");
+    box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.box_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;    
+    line-height: 75px;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.box_footer_in {
+    display: flex;
+}
+
+.nav_footer {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    height: 30px;
+    border: unset;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(83, 83, 83);
+}
+
+button.nav_footer:focus {
+    outline: none;
+}
+
+button.nav_divide {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    height: 30px;
+    border: unset;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(173, 173, 173);
+}
+
+button.nav_divide:focus{
+    outline: none;
+}
+
+a {
+    line-height: 0;
+    font-size: 0;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.class_image_timpani {
+    
+    width: 1160px;
+    height: 360px;
+    background: url("../img/Timpani.jpg");
+    background-size: cover;
+    background-position-y: -240px;
+    filter: blur(4px), drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+.class_image_electronic {
+    
+    width: 1160px;
+    height: 360px;
+    background: url("../img/Electronic.jpg");
+    background-size: cover;
+    background-position-y: -120px;
+    filter: blur(4px), drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+.class_image_clarinet {
+    
+    width: 1160px;
+    height: 360px;
+    background: url("../img/Clarinet.jpg");
+    background-size: cover;
+    background-position-y: -720px;
+    filter: blur(4px), drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+.flex_container_class {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_class_img {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    width: auto;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.classtext {
+    color: white;
+    padding-top: 150px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: right;
+    text-decoration: black;
+    font-size: 100px;
+}
+
+.classtext.left {    
+    text-align: left;    
+}
+
+.timpani_image {
+    width: 300px;
+    height: 400px;
+    
+    background: url("../img/Timpani.jpg");
+    background-position-x: -320px;
+    box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.box_timpani_img {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+button.learn{
+    color: white;
+    background-color: #4190BC;
+    border-radius: 10px;
+    font-size: 40px;
+    height: 90px;
+    margin-top: 20px;
+    border: none;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+}
+
+.learn:hover{
+    background-color: #4facdf;
+    cursor: pointer;
+}
+
+button.learn:active{
+    background-color: #2b617e;
+}
+
+.learn:focus{
+    outline: none;
+}
