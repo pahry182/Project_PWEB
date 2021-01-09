@@ -33,6 +33,7 @@ body {
     display: flex;
     flex-direction: row;
     width: auto;
+    position: fixed;
     padding-top: 8px;
     padding-bottom: 8px;
     border-radius: 10px;
@@ -286,4 +287,14 @@ button.learn:active{
 
 .learn:focus{
     outline: none;
+}
+
+.box_personal {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
 }
